@@ -1,0 +1,232 @@
+.main{width:770px ; margin:0 auto;}
+.title_text{
+	margin: 0px auto 0 auto;
+	padding-top: 52px;
+	display: block;
+	height: 74px;
+	width: 240px; 
+	text-align:center ;
+}
+.view{
+	width: 210px;
+	height: 210px;
+	margin: 10px;
+	border: 10px solid #DADADA;
+	overflow: hidden;
+	float: left;
+	-webkit-box-shadow: 1px 1px 2px #D0D0D0;
+    -moz-box-shadow: 1px 1px 2px #D0D0D0;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    position: relative;
+    cursor: default;
+    background: #fff url(../images/bgimg.jpg) no-repeat center center;
+}
+.info{
+/*   display: none; */
+  opacity: 0;
+  position: absolute;
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,.3);
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 150px;
+}
+.info p{
+  color: #fff;
+}
+.info:hover{
+  -webkit-transition: 300ms;
+  opacity: 1;
+}
+.enterblock{width: 210px;height: 210px;}
+.enterimg1{background-image: url(../img/食.png);}
+.enterimg2{background-image: url(../img/衣.png);}
+.enterimg3{background-image: url(../img/住.png);}
+.enterimg4{background-image: url(../img/行.png);}
+.enterimg5{background-image: url(../img/育.png);}
+.enterimg6{background-image: url(../img/樂.png);}
+
+.return{
+	background-image: url(../img/return.png); 
+	width: 52px;
+	height: 52px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+    cursor: default;
+}
+.insidetitle_text{
+	margin: 0px auto 0px auto;
+	padding-top: 52px;
+	display: block;
+	height: 74px;
+	width: 240px;
+	text-align:center ;
+}
+.selectgerne{
+	margin: 0px auto;
+	height: 52px;
+	float: right;
+	width: 215px;
+	overflow: hidden;
+	position: relative;
+  cursor: default;
+}
+.cleanfix{
+	clear: both;
+}
+
+.map{text-align: center;
+	width: 1000;
+	height: 600;
+	float: center;
+}
+.selectpage{
+	text-align:left;
+ 	margin: 30px 60px 400px 60px;
+ 	float: left;
+}
+
+.foodmain{width: 1080px; margin: 10px auto;}
+.food{
+	width: 320px;
+	height: 240px;
+	margin: 10px;
+	border: 10px solid #DADADA;
+	overflow: hidden;
+	float: left;
+	-webkit-box-shadow: 1px 1px 2px #D0D0D0;
+    -moz-box-shadow: 1px 1px 2px #D0D0D0;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    position: relative;
+    cursor: default;
+    background: #fff url(../images/bgimg.jpg) no-repeat center center;
+}
+.foodinfo{
+	opacity: 0;
+  position: absolute;
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,.3);
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 80px;
+}
+.foodinfo p{
+	color: #fff;
+}
+.foodinfo:hover{
+	-webkit-transition: 300ms;
+  opacity: 1;
+}
+.foodtime{
+	width: 255px;
+	height: auto;
+	margin: auto 33px 20px 33px;
+	float: left;
+	text-align: center;
+}	
+.foodimgblock{width: 320px; height: 240px;}
+.foodimg1{background-image: url(../img/foodimg/五花馬.jpg);}
+.foodimg2{background-image: url(../img/foodimg/路易莎.jpg);}
+.foodimg3{background-image: url(../img/foodimg/佐賀牛排.jpg);}
+.foodimg4{background-image: url(../img/foodimg/新化排骨麵.jpg);}
+.foodimg5{background-image: url(../img/foodimg/新饌日食.jpg);}
+.foodimg6{background-image: url(../img/foodimg/板塊牛排.jpg);}
+.foodimg7{background-image: url(../img/foodimg/京享鐵板燒.jpg);}
+.foodimg8{background-image: url(../img/foodimg/八方.jpg);}
+.foodimg9{background-image: url(../img/foodimg/和稻屋.jpg);}
+.foodimg10{background-image: url(../img/foodimg/麥當勞.jpg);}
+
+.dressmain{width: 1080px; margin: 10px auto;}
+.dress{
+	width: 320px;
+	height: 240px;
+	margin: 10px;
+	border: 10px solid #DADADA;
+	overflow: hidden;
+	float: left;
+	-webkit-box-shadow: 1px 1px 2px #D0D0D0;
+    -moz-box-shadow: 1px 1px 2px #D0D0D0;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    position: relative;
+    cursor: default;
+    background: #fff url(../images/bgimg.jpg) no-repeat center center;
+}
+.dressinfo{
+/*   display: none; */
+  opacity: 0;
+  position: absolute;
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,.3);
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 80px;
+}
+.dressinfo p{
+  color: #fff;
+}
+.dressinfo:hover{
+  -webkit-transition: 300ms;
+  opacity: 1;
+}
+.dresstime{
+	width: 255px;
+	height: auto;
+	margin: auto 33px 20px 33px;
+	float: left;
+	text-align: center;
+}
+.dressimgblock{width: 320px;height: 240px;}
+.dressimg1{background-image: url(../img/dressimg/蔡美珠.jpg);}
+.dressimg2{background-image: url(../img/dressimg/米莉服飾.jpg);}
+.dressimg3{background-image: url(../img/dressimg/晶晶時尚流行館.jpg);}
+.dressimg4{background-image: url(../img/dressimg/華歌爾高品專門店.jpg);}
+.dressimg5{background-image: url(../img/dressimg/永鎰服飾新市店.jpg);}
+.dressimg6{background-image: url(../img/dressimg/宣貝ShowBaby.jpg);}
+.dressimg7{background-image: url(../img/dressimg/京宸牛仔褲.jpg);}
+.dressimg8{background-image: url(../img/dressimg/Wulistudio우리.jpeg);}
+
+.live{
+	margin: 35px auto auto 100px;
+	float: left;
+}
+.liveill{
+	margin: 105px auto auto 40px;
+	float: left;
+}
+.liveout{float: left;margin: 35px auto auto 70px;}
+
+.tran{
+	margin: 35px auto;
+}
+.tranout{
+	margin: 35px auto;
+}
+
+.edulib{
+	margin: 60px 20px auto 150px;
+	float: left;
+	text-align: center;
+}
+.edulibill{
+	margin: 100px auto auto 580px;
+	text-align: left;
+}
+
+.fun{
+	margin: 60px 20px auto 150px;
+	display: block;
+	float: left;
+}
+.funill{
+	margin: 60px auto 20px 20px;
+	height: 375px;
+	text-align: left;
+	float: left;
+}
